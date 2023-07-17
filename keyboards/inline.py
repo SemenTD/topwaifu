@@ -2,7 +2,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.utils.keyboard import InlineKeyboardBuilder
 from waifu import ImageCategories
 
-from callbaks.waifu import WaifuCategoryCallbackData, WaifuTypeCallbackData
+from callbaks.waifu_callbacks import WaifuCategoryCallbackData, WaifuTypeCallbackData
 
 sfw_categories_inline_keyboard_builder = InlineKeyboardBuilder()
 for sfw_category in ImageCategories['sfw']:
